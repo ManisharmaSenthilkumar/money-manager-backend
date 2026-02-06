@@ -6,11 +6,8 @@ Handles transactions, accounts, categories, and transfer updates with MongoDB At
 ---
 
 ## 🚀 Live API
-🔗 Backend URL: **(Add your deployed Render link here)**
 
-Example:
-
-
+ Backend URL: (https://money-manager-backend-1-08bf.onrender.com)
 
 ---
 
@@ -51,7 +48,7 @@ money-manager-backend/
 
 ### 1️. Clone the repo
 
-    git clone https://github.com/<your-username>/money-manager-backend.git
+    git clone https://github.com/ManisharmaSenthilkumar/money-manager-backend
 
     cd money-manager-backend
 
@@ -67,8 +64,7 @@ money-manager-backend/
     MONGO_URI=your_mongodb_atlas_connection_string
 
     Example:
-
-
+    
     MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/moneymanager
 
 
