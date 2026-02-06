@@ -9,6 +9,10 @@ connectDB();
 
 app.use(cors());
 app.use(express.json());
+app.get("/", (req, res) => {
+  res.send("Money Manager Backend is Running 🚀");
+});
+
 
 app.use("/api/transactions", require("./routes/transactionRoutes"));
 app.use("/api/accounts", require("./routes/accountRoutes"));
